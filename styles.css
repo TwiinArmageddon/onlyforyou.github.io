@@ -12,6 +12,7 @@ body {
   justify-content: center;
   text-align: center;
   align-items: center;
+  margin-top: 5%;
 }
 
 #abrirpagina {
@@ -41,8 +42,8 @@ body {
 }
 
 .ilustracion {
-  width: 400px;
-  height: 400px;
+  width: 650px;
+  height: 500px;
 }
 
 .contenedor {
@@ -60,8 +61,20 @@ body {
   height: 200px;
 }
 
-#buenas {
+#estrellas {
   display: flex;
+  position: absolute;
+}
+
+#morse {
+  margin-top: 10%;
+}
+
+#soundSection {
+  display: flex;
+  position: relative;
+  margin-left: 60%;
+  margin-top: 3%;
 }
 
 .showStarts {
@@ -94,7 +107,9 @@ p {
 }
 
 #palabras {
-  margin-left: 60%;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 70%;
 }
 
 .hidden-code {
