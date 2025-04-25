@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(53, 70, 102);
+    background-color: #080a0f;
     text-align: center;
     align-items: center;
     display: flex;
@@ -11,17 +11,34 @@ body {
     margin: 0;
 }
 
-.container {
-    padding: 0px 70px;
+#container {
+    padding: 0 70px;
     border-color: rgb(41, 66, 111);
     border-radius: 60px;
     border-style: solid;
     background-color: rgb(81, 118, 184);
 }
 
-
 a {
     margin: 20px 10px;
     color: black;
     text-decoration: none;
+}
+
+#puerta {
+    display: none;
+    animation-name: abrirPuerta;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abrirPuerta {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
