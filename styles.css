@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", monospace;
+  background-image: url("resources/background.jpg");
+  background-size: 300%;
+  background-repeat: no-repeat;
+}
+
+#imagen1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#abrirpagina {
+  display: flex;
+  justify-content: end;
+}
+
+#abrirpagina a {
+  color: darkgoldenrod;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#imagen2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#pulsame {
+  margin-right: 80px;
+  color: darkgoldenrod;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ilustracion {
+  width: 400px;
+  height: 400px;
+}
+
+.contenedor {
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+.section {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.estrellas {
+  width: 200px;
+  height: 200px;
+}
+
+#buenas {
+  display: flex;
+}
+
+.showStarts {
+  padding-left: 18%;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.secret-text {
+  color: transparent;
+  user-select: text;
+}
+
+.secret-text::selection {
+    color: white;
+}
+
+.clickable {
+  color: #0077ff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#palabras {
+  margin-left: 60%;
+}
+
+.hidden-code {
+  display: none;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.flower {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.flower:hover {
+  transform: rotate(10deg) scale(1.2);
+}
+
+.code-box {
+  background-color: #222;
+  color: #0f0;
+  font-family: monospace;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 500px;
+  display: none;
+}
+
+
+.cambiador {
+    display: inline-block;
+    position: relative;
+    width: 200px; /* Ajusta al tamaño de tus palabras */
+    height: 1.2em;
+    overflow: hidden;
+    text-align: left;
+  }
+
+  .cambiador span {
+    color: white;
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    animation: cambiar 6s infinite;
+  }
+
+  .cambiador span:nth-child(1) { animation-delay: 0s; }
+  .cambiador span:nth-child(2) { animation-delay: 2s; }
+  .cambiador span:nth-child(3) { animation-delay: 4s; }
+
+  @keyframes cambiar {
+    0%   { opacity: 0; }
+    10%  { opacity: 1; }
+    30%  { opacity: 1; }
+    40%  { opacity: 0; }
+    100% { opacity: 0; }
+  }

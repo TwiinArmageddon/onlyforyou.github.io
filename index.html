@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Evan 💌</title>
+    <link href="resources/favicon.png" type="image/x-icon" rel="icon" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <!-- Don't forget the number. Eight clicks. -->
+    <div class="contenedor">
+      <div
+        class="flower"
+        onclick="window.open('https://forms.gle/tu-formulario-secreto', '_blank')"
+      >
+        🌸
+      </div>
+
+      <div class="section">
+        <h1>Hey</h1>
+        <p>
+          This isn't a normal web. There's a 
+          <strong>code(s)</strong> that only you can find.
+        </p>
+        <p>Good luck... you probably won't need it</p>
+      </div>
+
+      <div class="section" id="palabras">
+        <span class="cambiador">
+          <span>The project</span>
+          <span>First impression</span>
+          <span>Open</span>
+        </span>
+      </div>
+
+      <div class="section" id="buenas">
+        <div>
+          <img alt="" class="estrellas" onclick="reveal('code1')" src="resources/stars-cute.gif"/>
+          <div id="code1" class="hidden-code">
+            P <strong>_ _ _ _ _ _ _ _ _ _ </strong>
+          </div>
+        </div>
+        <div class="showStarts"></div>
+      </div>
+
+      <div class="section">
+        <!--
+        <p class="clickable" onclick="reveal('code2')">
+          Click para reproducir... o no.
+        </p>
+        -->
+        <div id="code2" class="hidden-code">
+          Segunda letra: <strong>A</strong>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="secret-text">
+          I didn't create some loser alter-ego to make myself feel better. Take some responsibility! <strong>T</strong>
+        </p>
+      </div>
+
+      <div class="section">
+        <!--
+        <p class="clickable" onclick="reveal('code4')">
+          Haz clic si te atreves.
+        </p>
+        -->
+        <div id="code4" class="hidden-code">
+          Cuarta letra: <strong>E</strong>
+        </div>
+      </div>
+
+      <div class="section">
+        <p> - -.-- .-.. . .-.</p>
+        <div id="code5" class="hidden-code">
+          Última letra: <strong>A</strong>
+        </div>
+      </div>
+
+      <div class="section">
+        <audio id="sound" controls autoplay>
+          <source src="resources/sound.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <script>
+          document.getElementById("sound").volume = 0.2;
+        </script>
+      </div>
+
+
+      <div class="section" id="imagen1">
+        <img alt="" src="resources/for-chan-down.png"/>
+        <div class="section">
+          <p>[(2×4), (45÷3), (10+3), (20÷4), (38÷2), (5×4), (7×3), (9÷3), (22÷2)]= ?
+          </p>
+        </div>
+      </div>
+
+      <div class="section" id="imagen2">
+        <div class="section">
+          <a href="https://holis./este-es-un-archivo-secreto.pdf" id="pulsame" target="_blank">Pulsame</a>
+        </div>
+        <img alt="" class="ilustracion" src="resources/Ilustracion42.png"/>
+      </div>
+
+      <div class="section">
+        <iframe
+          width="420"
+          height="315"
+          src="https://www.youtube.com/embed/tgbNymZ7vqY"
+        >
+        </iframe>
+      </div>
+
+      <div class="section" id="abrirpagina">
+        <a href="error/index.html" target="_blank">Abrir página interesante</a>
+      </div>
+
+      <script>
+        function reveal(id) {
+          document.getElementById(id).style.display = "block";
+        }
+      </script>
+    </div>
+  </body>
+</html>
