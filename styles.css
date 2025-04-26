@@ -15,17 +15,6 @@ body {
   margin-top: 5%;
 }
 
-#abrirpagina {
-  display: flex;
-  justify-content: end;
-}
-
-#abrirpagina a {
-  color: darkgoldenrod;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
 #imagen2 {
   display: flex;
   justify-content: center;
